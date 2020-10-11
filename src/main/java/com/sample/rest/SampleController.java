@@ -23,7 +23,7 @@ public class SampleController {
 		DTO dto = new DTO();
 		dto.setProfile(object.getString("profile"));
 		dto.setImageURL(object.getString("imageURL"));
-		dto.setBowlingStyle(object.getString("battingStyle"));
+		dto.setBattingStyle(object.getString("battingStyle"));
 		dto.setBowlingStyle(object.getString("bowlingStyle"));
 		dto.setMajorTeams(object.getString("majorTeams"));
 		return dto;
